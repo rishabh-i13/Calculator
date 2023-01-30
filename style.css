@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,300&family=Itim&family=PT+Serif:wght@700&family=Permanent+Marker&family=Play&family=Sofia+Sans:wght@700&family=Source+Code+Pro:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.heading{
+    text-align: center;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    background: #008eb6;
+    font-size: 30px;
+    font-family: 'Itim', cursive;
+}
+
+.container{
+    width: 100%;
+    height: 95.5vh;
+    background: #75dcf9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+.calculator{
+    background: #3a4452;
+    padding: 15px;
+    border: 5px;
+    border-radius: 10px; 
+    padding-top: 10px;
+}
+
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 25px 0;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 35px;
+    box-shadow: none;
+}
+
+form input.equal{
+    width: 115px;
+    color: rgb(62, 240, 207);
+}
+
+form input.operator{
+    color: rgb(62, 240, 207);
+}
